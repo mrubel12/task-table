@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #34568B;
+}
+#ok{
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    width: 50%;
+    margin: 10% auto;
+    padding: 25px;
+    box-shadow: 3px 3px 30px black;
+}
+#ok h1{
+    color: black;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#ok img{
+    display: block;
+    margin: auto;
+    width: 100px;
+    margin-bottom: 5px;
+}
+form{
+    margin-top: 25px;
+}
+label{
+    color: black;
+    line-height: 28px;
+    font-size: 20px;
+}
+input, label{
+    display: block;
+}
+input{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+input::placeholder{
+    color:black
+}
+input[type="submit"] {
+    width: 50%;
+    margin: 20px auto;
+    transition: ease-in 0.5s;
+}
+input[type="submit"]:hover {
+    background-color: black;
+    color: blue;
+}
+.p1{
+    color: black;
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p2{
+    text-transform: capitalize;
+    color: black;
+    margin-top: 10px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+pre{
+    color: black;
+    font-size: 15px;
+}
+
+
